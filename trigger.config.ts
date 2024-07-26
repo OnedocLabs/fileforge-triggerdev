@@ -1,12 +1,16 @@
 import "dotenv/config";
 import type { TriggerConfig } from "@trigger.dev/sdk/v3";
 
-if (!process.env.TRIGGER_PROJECT_ID) {
-  throw new Error("TRIGGER_PROJECT_ID is not set");
+const triggerProjectID = "proj_nbemyfywaqgifaqyqygz"; // Change this value to your project ID
+
+if (triggerProjectID === "proj_nbemyfywaqgifaqyqygz") {
+  throw new Error(
+    "It seems that you are not using your own project ID. Please change the value of `triggerProjectID` to your project ID in `trigger.config.ts`."
+  );
 }
 
 export const config: TriggerConfig = {
-  project: process.env.TRIGGER_PROJECT_ID as string,
+  project: triggerProjectID,
   logLevel: "log",
   retries: {
     enabledInDev: true,
