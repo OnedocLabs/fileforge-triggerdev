@@ -1,0 +1,22 @@
+{
+  "name": "fileforge-triggerdev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx trigger.dev@beta dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fileforge/client": "^0.1.17",
+    "@fileforge/react-print": "^0.1.143",
+    "@trigger.dev/sdk": "3.0.0-beta.51",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "dotenv": "^16.4.5"
+  }
+}
