@@ -49,9 +49,9 @@ cp .env.example .env
 
 Then, open the `.env` file and fill in the `TRIGGERDEV_API_KEY`, `TRIGGER_PROJECT_ID` and `FILEFORGE_API_KEY` variables.
 
-Your `TRIGGERDEV_API_KEY` can be found in the Trigger.dev dashboard, on the left hand side, under `API Keys`.
-Your `TRIGGER_PROJECT_ID` can be found in the Trigger.dev dashboard, on the left hand side, under `Project Settings`. It is named `Project ref`.
-Your `FILEFORGE_API_KEY` can be found in the Fileforge dashboard, in the dark box at the top.
+- `TRIGGERDEV_API_KEY` can be found in the Trigger.dev dashboard, on the left hand side, under `API Keys`.
+- `TRIGGER_PROJECT_ID` can be found in the Trigger.dev dashboard, on the left hand side, under `Project Settings`. It is named `Project ref`.
+- `FILEFORGE_API_KEY` can be found in the Fileforge dashboard, in the dark box at the top.
 
 ## Run the example
 
